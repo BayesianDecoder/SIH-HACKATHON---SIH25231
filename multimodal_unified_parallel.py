@@ -130,7 +130,7 @@ class ParallelMasterPipeline:
     
     def __init__(
         self,
-        clip_model_path: str = "/Users/vijay/Documents/SIH/clip-model",
+        clip_model_path: str = "SIH/clip-model",
         output_dir: str = "processed_output",
         max_workers: int = None
     ):
@@ -567,7 +567,7 @@ def main():
     parser.add_argument('--output-dir', default='processed_output',
                        help='Output directory')
     parser.add_argument('--clip-model', 
-                       default='/Users/vijay/Documents/SIH/clip-model',
+                       default='SIH/clip-model',
                        help='Path to CLIP model')
     parser.add_argument('--workers', type=int, default=None,
                        help='Number of parallel workers (default: 75%% of CPU cores)')

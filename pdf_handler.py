@@ -624,7 +624,7 @@ def extract_and_process_pdf(pdf_path: str, output_dir: str = "extracted_data") -
 
 
 if __name__ == "__main__":
-    pdf_path = "/Users/vijay/Documents/SIH/dataset/pdfs/2005.11401v4.pdf"
+    pdf_path = "SIH/dataset/recipe_book.pdf"
     
     try:
         import pytesseract

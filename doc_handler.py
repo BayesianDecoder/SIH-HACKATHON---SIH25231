@@ -493,7 +493,7 @@ class DOCXProcessor:
 
 def test_docx_processor():
     """Test the enhanced DOCX processor."""
-    doc_path = "/Users/vijay/Documents/SIH/dataset/sample3.docx"
+    doc_path = "SIH/dataset/sample3.docx"
     
     if not os.path.exists(doc_path):
         print(f"❌ Error: File not found at {doc_path}")

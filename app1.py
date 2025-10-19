@@ -20,7 +20,7 @@ app.secret_key = 'change-this-secret-key-in-production'
 app.config['MAX_CONTENT_LENGTH'] = 500 * 1024 * 1024  # 500MB
 app.config['UPLOAD_FOLDER'] = 'uploads'
 app.config['PROCESSED_FOLDER'] = 'processed_output'
-app.config['CLIP_MODEL_PATH'] = '/Users/vijay/Documents/SIH/clip-model'
+app.config['CLIP_MODEL_PATH'] = 'SIH/clip-model'
 
 # Allowed file extensions
 ALLOWED_EXTENSIONS = {
