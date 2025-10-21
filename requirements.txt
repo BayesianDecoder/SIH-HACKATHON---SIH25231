@@ -1,67 +1,61 @@
 
 # Web Framework
-Flask==3.0.0
-Werkzeug==3.0.1
+Flask
+Werkzeug
 
 # Deep Learning & ML
-torch==2.1.0
-torchvision==0.16.0
-torchaudio==2.1.0
-transformers==4.35.0
-sentence-transformers==2.2.2
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
 
 # Computer Vision
-Pillow==10.1.0
-opencv-python==4.8.1.78
-pytesseract==0.3.10
+Pillow
+opencv-python
+pytesseract
+
 
 # Audio Processing
-librosa==0.10.1
-soundfile==0.12.1
-pydub==0.25.1
-faster-whisper==0.9.0
+librosa
+soundfile
+pydub
+faster-whisper
+
 
 
 # Vector Store & Search
-faiss-cpu==1.7.4
+faiss-cpu
 # For GPU: faiss-gpu==1.7.4
-numpy==1.24.3
-scipy==1.11.4
+numpy
+scipy
 
 # NLP & Text Processing
-nltk==3.8.1
-spacy==3.7.2
-rank-bm25==0.2.2
+nltk
+spacy
+rank-bm25
 
 # Document Processing
-unstructured==0.10.30
-python-docx==1.1.0
-python-pptx==0.6.23
-openpyxl==3.1.2
-pypdf==3.17.1
-pdf2image==1.16.3
-pdfplumber==0.10.3
+unstructured
+python-docx
+python-pptx
+openpyxl
+pypdf
+pdf2image
+pdfplumber
 
 # LLM Integration
-ollama==0.1.6
-langchain==0.1.0
-langchain-community==0.0.10
-
-# Data Handling
-pandas==2.1.3
-tiktoken==0.5.1
-
-# Machine Learning Utilities
-scikit-learn==1.3.2
-kneed==0.8.5
+ollama
+tiktoken
+kneed
 
 # HTTP & APIs
-requests==2.31.0
-urllib3==2.1.0
+requests
+urllib3
 
 # Progress Bars
-tqdm==4.66.1
+tqdm
 
 # Serialization
-pickle5==0.0.11; python_version < '3.8'
+pickle5
 
